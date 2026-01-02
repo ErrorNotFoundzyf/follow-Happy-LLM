@@ -1,0 +1,54 @@
+# 数据和模型相关
+data/raw/
+data/prepared/*.jsonl
+models/checkpoints/
+models/pretrain/
+models/llama2_from_scratch/
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# 索引文件
+*.idx.npy
+tokenizer_test_report.txt
